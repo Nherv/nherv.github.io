@@ -38,6 +38,7 @@ function init(){
     initial_search.value = "";
     selected_start = null;
     document.getElementById("route").style.display = "none";
+    document.getElementById("herve").style.display = "none";
 
     if (document.getElementById("final_search") == null) { // System A
         console.log("System A");
@@ -191,6 +192,7 @@ function ok(){
     } else {
         document.getElementById("stop").style.display = "none";
         document.getElementById("route").style.display = "";
+        document.getElementById("herve").style.display = "";
         document.getElementsByClassName("stop_selection")[0].style.display = "none";
         document.getElementsByClassName("route_selection")[0].style.display = "flex";
 
@@ -263,6 +265,7 @@ function ok(){
 function back() {
     document.getElementById("stop").style.display = "";
     document.getElementById("route").style.display = "none";
+    document.getElementById("herve").style.display = "none";
     document.getElementsByClassName("stop_selection")[0].style.display = "flex";
     document.getElementsByClassName("route_selection")[0].style.display = "none";
 
