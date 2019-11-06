@@ -1,0 +1,180 @@
+body {
+    background-color: dimgrey; 
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    color:white;
+    font-family: 'Candara', 'Geneva', sans-serif; 
+}
+
+.grid-container {
+    height:100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.title { grid-area: 1 / 1 / 2 / 3; }
+.title h1 {
+    font-size: 35px; 
+    text-align: center; 
+    font-weight: bold;  
+}
+
+.instructions {
+    grid-area: 2 / 1 / 4 / 3;
+    padding: 20px;
+}
+
+.instructions h3 {
+    font-size: 20px; 
+    text-align: center;
+}
+
+.device { 
+    grid-area: 1 / 3 / 5 / 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    height: 550px;
+    width: 700px;
+    background-color: white;
+    border-radius: 7%;
+    border-style: solid;
+    border-width: 15px 50px 15px 50px;
+    border-color: black;
+    color: black;
+}
+
+.stop_selection {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.route_selection {
+    display: none;
+    height: inherit;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search {
+    width: 80%;
+    border-radius: 5%;
+    font-size: 20px;
+    margin: 20px 20px 0px 20px;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown_menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown_menu li {
+    margin: -1px 20px 0px 20px;
+    width: 80%;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.dropdown_menu li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#end {
+    margin-top: 50px;
+}
+
+.button {
+    border-radius: 5%;
+    border: 2px solid black;
+    font-size: 30px;
+    margin: 50px auto;
+    padding: 0 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: linen;
+    cursor: pointer;
+}
+
+#ok_button {
+    margin-top: auto;
+}
+
+.bus_list {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.bus {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px 30px;
+    background-color: lightgray;
+}
+
+.bus_map {
+    width: inherit;
+}
+
+#map {
+    max-width: 700px;
+    max-height: 400px;
+    margin: 10px;
+}
+
+.result_list {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: linen;
+}
+
+.bus_name {
+    min-width: 20%;
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+#back_button {
+    font-size: 15px;
+    margin: 0;
+    align-self: flex-start;
+}
+
+#quit_button {
+    color: black;
+    font-size: 20px;
+    margin: 100px;
+
+}
+
+.result {
+    width: 100%;
+}

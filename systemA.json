@@ -1,0 +1,142 @@
+{
+	"COM2": {
+		"bus1" : {
+			"name" : "A1",
+			"time" : 5,
+			"image" : "maps/a1_com2_utown.png"
+		},
+		"bus2" : {
+			"name" : "A2",
+			"time" : 6,
+			"image" : "maps/a2_com2_utown.png"
+		},
+		"bus3" : {
+			"name" : "D1",
+			"time" : 1,
+			"image" : "maps/d1_com2_utown.png"
+		}
+	},
+
+	"HSSML": {
+		"bus1" : {
+			"name" : "A2",
+			"time" : 5,
+			"image" : "maps/a2_hssml_kr.png"
+		},
+		"bus2" : {
+			"name" : "B2",
+			"time" : 2,
+			"image" : "maps/b2_hssml_kr.png"
+		},
+		"bus3" : {
+			"name" : "D1",
+			"time" : 9,
+			"image" : "maps/d1_hssml_kr.png"
+		}
+	},
+
+	"LT27": {
+		"bus1" : {
+			"name" : "A1",
+			"time" : 3,
+			"image" : "maps/a1_lt27_lt13.png"
+		},
+		"bus2" : {
+			"name" : "C",
+			"time" : 3,
+			"image" : "maps/c_lt27_museum.png"
+		},
+		"bus3" : {
+			"name" : "D2",
+			"time" : 4,
+			"image" : "maps/d2_lt27_museum.png"
+		}
+	},
+
+	"UTown": {
+		"bus1" : {
+			"name" : "B1",
+			"time" : 3,
+			"image" : "maps/b1_utown_clb.png"
+		},
+		"bus2" : {
+			"name" : "B2",
+			"time" : 8,
+			"image" : "maps/b2_utown_clb.png"
+		},
+		"bus3" : {
+			"name" : "D1",
+			"time" : 6,
+			"image" : "maps/d1_utown_clb.png"
+		},
+		"bus4" : {
+			"name" : "D2",
+			"time" : 1,
+			"image" : "maps/d2_utown_clb.png"
+		}
+	},
+
+	"Museum": {
+		"bus1" : {
+			"name" : "A2",
+			"time" : 2,
+			"image" : "maps/a2_museum_kr.png"
+		},
+		"bus2" : {
+			"name" : "C",
+			"time" : 6,
+			"image" : "maps/c_museum_utown.png"
+		},
+		"bus3" : {
+			"name" : "D1",
+			"time" : 7,
+			"image" : "maps/d1_museum_utown.png"
+		},
+		"bus4" : {
+			"name" : "D2 TCOM",
+			"time" : 11,
+			"image" : "maps/d2_museum_kr.png"
+		},
+		"bus5" : {
+			"name" : "D2 UTown",
+			"time" : 11,
+			"image" : "maps/d2_museum_utown.png"
+		}
+	},
+
+	"YIH": {
+		"bus1" : {
+			"name" : "A1",
+			"time" : 1,
+			"image" : "maps/a1_yih_clb.png"
+		},
+		"bus2" : {
+			"name" : "B1",
+			"time" : 3,
+			"image" : "maps/b1_yih_clb.png"
+		},
+		"bus3" : {
+			"name" : "D1",
+			"time" : 7,
+			"image" : "maps/d1_yih_clb.png"
+		}
+	},
+
+	"UHall": {
+		"bus1" : {
+			"name" : "A1",
+			"time" : 6,
+			"image" : "maps/a1_uhall_uhc.png"
+		},
+		"bus2" : {
+			"name" : "C",
+			"time" : 9,
+			"image" : "maps/c_uhall_uhc.png"
+		},
+		"bus3" : {
+			"name" : "D2",
+			"time" : 5,
+			"image" : "maps/d2_uhall_uhc.png"
+		}
+	}
+}
